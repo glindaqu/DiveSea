@@ -488,7 +488,7 @@ button:hover {
 
 .marketplace-content-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .stick4 {

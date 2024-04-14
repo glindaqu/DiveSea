@@ -693,3 +693,45 @@ button:hover {
     background-color: #818181;
     margin: 40px auto 60px auto;
 }
+
+
+/*------------------------------------------------LOGIN------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
+.login-wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login-title {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #141416;
+    line-height: 120%;
+}
+
+.login-form {
+    margin: 30px auto;
+    border-color: #F1F1F1;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 70px 60px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 10px;
+    background-color: #F1F1F1;
+}
+
+.email, .password {
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}

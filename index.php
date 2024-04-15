@@ -28,9 +28,9 @@
                 <div class="header-group">
                     <input type="text" class="header-search" placeholder="Search Art Work / Creator">
                     <?php if (isset($_COOKIE['isLogin'])) { ?>
-                        <a href="public/html/profile.html"><button class="connect-wallet">profile</button></a>
+                        <a href="public/html+php/profile.php"><button class="connect-wallet">profile</button></a>
                     <?php } else { ?>
-                        <a href="public/html/login.html"><button class="connect-wallet">login</button></a>
+                        <a href="public/html+php/login.html"><button class="connect-wallet">login</button></a>
                     <?php } ?>
                 </div>
             </div>
